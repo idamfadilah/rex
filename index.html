@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Open Sans', sans-serif;
+        }
+        .container{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        .hero-container img {
+            width: 30rem;
+        }
+        .description-container h1{
+            font-size: 2.5rem;
+        }
+        .description-container div input{
+            background: none;
+            padding: 0.3rem 0.5rem;
+            margin-top: 1rem;
+            transition: 500ms;
+        }
+        .description-container div input:active{
+            background-color: black;
+            color: white;
+        }
+
+        .description-container div input:hover{
+            transform: scale(1.1);
+            transition: 500ms;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hero-container">
+            <img src="rex.png" alt="">
+        </div>
+        <div class="description-container">
+            <div>
+                <h1>Mamang Trex is live!</h1>
+                <p>Say hello to mamang trex, coolest dinost in the world!</p>
+                <input type="button" value="Buy token"/>
+            </div>
+            <div>
+                <p></p>
+            </div>
+
+
+
+        </div>
+    </div>
+
+</body>
+</html>
